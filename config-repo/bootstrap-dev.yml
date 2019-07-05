@@ -1,9 +1,6 @@
 spring:
-  kafka:
-    bootstrap-servers:
-      101.37.159.67:9092
-      101.37.159.67:9093
-      101.37.159.67:9094
+  application:
+    name: testtest
       
 feign:
   hystrix:
